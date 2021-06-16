@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html * {
+    margin: 0;
+}
+
+#cabecalho {
+    height: 12vh;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 0;
+}
+
+#conteudo {
+    /*height: 70vh;*/
+    background-color: antiquewhite;
+    padding: 4vh 2vh 4vh 2vh;
+}
+
+#rodape {
+    height: 18vh;
+    background-color: burlywood;
+    text-align: center;
+}
+
+#logo-img {
+    height: 10vh;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+#logo-nome {
+    font-size: 5vh;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-weight: normal;
+}
+
+.info-rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    padding-top: 2vh;
+}
+
+.social-icon {
+    height: 4vh;
+}
+
+.prato {
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-align: center;*/
+    padding-bottom: 5vh;
+    border-bottom: 1px solid burlywood;
+}
+
+.nome-prato {
+    text-align: center;
+    font-size: 3.2vh;
+    line-height: 5vh;
+}
+
+.imagem-prato {
+    display: block;
+    margin: auto;
+    height: 30vh;
+}
+
+.descricao-prato {
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.ingredientes-prato {
+    font-size: 2.7vh;
+}
+
+.itens-prato li{
+    font-size: 2.5vh;
+}
